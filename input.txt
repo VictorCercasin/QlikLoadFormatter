@@ -1,0 +1,33 @@
+LOAD
+    BAIRRO_ENDER,
+    BAIRRO_ENDER_ENVIO,
+    COD_CIDADE_NASC,
+    COD_CONTINE,
+    COD_CONTINE_ENVIO,
+    COD_CONTINE_NASC,
+    ZONA_TITULO
+FROM [lib://Exemplo.qvd]
+(qvd);
+
+LOAD
+    CD_INSTIT_TITULACAO,
+    NR_MATRICULA,
+    NR_MILITAR,
+    RUA_ENDER_ENVIO,
+    SECAO_TITULO,
+    UF_CRM,
+    UF_EXP_RG,
+    ZONA_TITULO
+FROM [lib://Exemplo.qvd]
+(qvd);
+
+LOAD
+    ANO_TITULACAO,
+    ANO_VOTACAO,
+    BAIRRO_ENDER,
+    SECAO_TITULO,
+    UF_CRM,
+    UF_EXP_RG,
+    ZONA_TITULO
+FROM [lib://Exemplo.qvd]
+(qvd);
