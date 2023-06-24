@@ -18,27 +18,21 @@ Qlik Sense's default load script format.
 
 ```
 LOAD
-    BAIRRO_ENDER,
-    BAIRRO_ENDER_ENVIO,
-    COD_CIDADE_NASC,
-    COD_CONTINE,
-    COD_CONTINE_ENVIO,
-    COD_CONTINE_NASC,
-    ZONA_TITULO
-FROM [lib://Exemplo.qvd]
+    FIELD1,
+    FIELD2,
+    FIELD3
+FROM [lib://TEST/table1.qvd]
 (qvd);
 
+
 LOAD
-    CD_INSTIT_TITULACAO,
-    NR_MATRICULA,
-    NR_MILITAR,
-    RUA_ENDER_ENVIO,
-    SECAO_TITULO,
-    UF_CRM,
-    UF_EXP_RG,
-    ZONA_TITULO
-FROM [lib://Exemplo.qvd]
+    FIELD1,
+    FIELD2,
+    FIELD3
+FROM [lib://TEST/table2.qvd]
 (qvd);
+
+
 
 ```
 
@@ -48,27 +42,19 @@ Formated script.
 ```
 
 Load
-    BAIRRO_ENDER                                      as BAIRRO_ENDER
-,   BAIRRO_ENDER_ENVIO                                as BAIRRO_ENDER_ENVIO
-,   COD_CIDADE_NASC                                   as COD_CIDADE_NASC
-,   COD_CONTINE                                       as COD_CONTINE
-,   COD_CONTINE_ENVIO                                 as COD_CONTINE_ENVIO
-,   COD_CONTINE_NASC                                  as COD_CONTINE_NASC
-,   ZONA_TITULO                                       as ZONA_TITULO
-From [lib://Exemplo.qvd]
+    FIELD1                                            as FIELD1
+,   FIELD2                                            as FIELD2
+,   FIELD3                                            as FIELD3
+From [lib://TEST/table1.qvd]
 (qvd);
 
 
+
 Load
-    CD_INSTIT_TITULACAO                               as CD_INSTIT_TITULACAO
-,   NR_MATRICULA                                      as NR_MATRICULA
-,   NR_MILITAR                                        as NR_MILITAR
-,   RUA_ENDER_ENVIO                                   as RUA_ENDER_ENVIO
-,   SECAO_TITULO                                      as SECAO_TITULO
-,   UF_CRM                                            as UF_CRM
-,   UF_EXP_RG                                         as UF_EXP_RG
-,   ZONA_TITULO                                       as ZONA_TITULO
-From [lib://Exemplo.qvd]
+    FIELD1                                            as FIELD1
+,   FIELD2                                            as FIELD2
+,   FIELD3                                            as FIELD3
+From [lib://TEST/table2.qvd]
 (qvd);
 
 

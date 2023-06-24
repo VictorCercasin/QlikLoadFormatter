@@ -1,0 +1,18 @@
+
+Load
+    FIELD1                                            as FIELD1
+,   FIELD2                                            as FIELD2
+,   FIELD3                                            as FIELD3
+From [lib://TEST/table1.qvd]
+(qvd);
+
+
+
+Load
+    FIELD1                                            as FIELD1
+,   FIELD2                                            as FIELD2
+,   FIELD3                                            as FIELD3
+From [lib://TEST/table2.qvd]
+(qvd);
+
+
