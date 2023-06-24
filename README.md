@@ -1,6 +1,6 @@
 # QlikLoadFormatter
 
-> Python script for converting Qlik Sense's default load script format into a more suitable format.
+> Python script for converting Qlik Sense's default load script format into a more suitable format, as stated by `Bitmetric Qlik Sense Coding Conventions`, available [HERE](https://www.bitmetric.nl/blog/bitmetric-qlik-sense-coding-conventions-free-download/).
 
 ## Usage
 
@@ -47,7 +47,7 @@ Formated script.
 
 ```
 
-LOAD
+Load
     BAIRRO_ENDER                                      as BAIRRO_ENDER
 ,   BAIRRO_ENDER_ENVIO                                as BAIRRO_ENDER_ENVIO
 ,   COD_CIDADE_NASC                                   as COD_CIDADE_NASC
@@ -55,11 +55,11 @@ LOAD
 ,   COD_CONTINE_ENVIO                                 as COD_CONTINE_ENVIO
 ,   COD_CONTINE_NASC                                  as COD_CONTINE_NASC
 ,   ZONA_TITULO                                       as ZONA_TITULO
-FROM [lib://Exemplo.qvd]
+From [lib://Exemplo.qvd]
 (qvd);
 
 
-LOAD
+Load
     CD_INSTIT_TITULACAO                               as CD_INSTIT_TITULACAO
 ,   NR_MATRICULA                                      as NR_MATRICULA
 ,   NR_MILITAR                                        as NR_MILITAR
@@ -68,7 +68,7 @@ LOAD
 ,   UF_CRM                                            as UF_CRM
 ,   UF_EXP_RG                                         as UF_EXP_RG
 ,   ZONA_TITULO                                       as ZONA_TITULO
-FROM [lib://Exemplo.qvd]
+From [lib://Exemplo.qvd]
 (qvd);
 
 
@@ -82,5 +82,5 @@ FROM [lib://Exemplo.qvd]
 
 
 
- Created by https://github.com/VictorCercasin
- Project's GitHub: https://github.com/VictorCercasin/LikLoadFormatter
+ Created by [Victor Hugo Cercasin](https://github.com/VictorCercasin)
+ Project's [GitHub](https://github.com/VictorCercasin/QlikLoadFormatter) page

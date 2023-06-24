@@ -62,6 +62,8 @@ def formatter(inputString, lineWidth):
     for table in tableList:
         output = output + "\n" + tableFormatter(table, lineWidth)
 
+    output = output.replace("LOAD", "Load")
+    output = output.replace("FROM", "From")
     return output
 
 def main():
